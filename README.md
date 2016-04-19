@@ -23,3 +23,7 @@ There are 3 different ways you can use this module:
  - Sitecore.Web.UI.WebControls.FieldRenderer.Render(Sitecore.Context.Item, "Image");
  - CustomMediaManager.GetMediaUrl(((Sitecore.Data.Fields.ImageField)Sitecore.Context.Item.Fields["Image"]));
 
+
+ ## Build
+
+ Copy `Sitecore.Kernel.dll` and `Sitecore.Client.dll` to `lib` folder. Build in Visual Studio.

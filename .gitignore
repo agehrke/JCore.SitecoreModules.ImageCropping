@@ -13,3 +13,6 @@
 # Build results
 [Bb]in/
 [Oo]bj/
+
+# Ignore lib folder with Sitecore assemblies
+lib/
